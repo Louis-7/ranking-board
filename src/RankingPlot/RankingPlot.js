@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactEcharts from "echarts-for-react";
-import './RankingPlot.less';
+// import './RankingPlot.less';
 export class RankingPlot extends React.Component {
 
     // constructor(props) {
