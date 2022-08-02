@@ -13,6 +13,10 @@
             "points": 1
         },
         {
+            "name": "Max",
+            "points": 10
+        },
+        {
             "name": "Foo",
             "points": 5
         },
