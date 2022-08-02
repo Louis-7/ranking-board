@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# Ranking Board
 
-You can use the [editor on GitHub](https://github.com/BeclsUser/ranking-board/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+A ranking board for team internal use. Anyone can publish their problems in this repository and the one who solves the problem can earn points.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Dev
 
-### Markdown
+To start the dev server:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+npm run start
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+It will open http://localhost:3000/ automatically in your default browser .
 
-### Jekyll Themes
+## Build
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BeclsUser/ranking-board/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```
+npm run build
+```
 
-### Support or Contact
+## Test
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
+npm run test
+```
+
+## Deploy
+
+Deploy this application to the GitHub Pages by:
+
+```
+npm run deploy
+```
+
+We wrap a custom deploy script inside which is `srcripts/deploy_artifacts.js`.
