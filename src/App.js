@@ -1,15 +1,23 @@
-import './App.css';
-import {RankingPlot} from './RankingPlot/RankingPlot.js'
+import './App.less';
+import { Layout, Typography} from 'antd';
+import { DashBoard } from './DashBoard/DashBoard.js'
+
+
+const { Header, Footer, Content } = Layout;
+const { Title } = Typography;
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="title">Ranking</h1>
-      </header>
-      <RankingPlot/>
-    </div>
+    <Layout>
+      <Header>
+        <Title className="rank-title">Ranking Board</Title>
+      </Header>
+      <Content>
+        <DashBoard/>
+      </Content>
+      <Footer style={{ textAlign: 'center', }}>Cloud Team @2022</Footer>
+    </Layout>
   );
 }
 
