@@ -16,10 +16,14 @@ export class DashBoard extends React.Component {
             totalUsers: 0,
             totalPoints: 0
         };
+
+        let token  = 'GHSAT0AAAAAABHK4A7YP5BKWLKANODFYRVIYXUXABA'
+
+        this.dataUrl = `https://raw.githubusercontent.com/BeclsUser/ranking-board/main/data/ranking.json?token=${token}`
     }
 
     componentDidMount() {
-        axios.get('https://raw.githubusercontent.com/louis-bec/louis-bec.github.io/main/data/ranking.json')
+        axios.get(this.dataUrl)
             .then((response) => {
                 let data    = response.data;
                 let ranking = data.ranking
