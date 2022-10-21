@@ -17,7 +17,7 @@ export class DashBoard extends React.Component {
             totalPoints: 0
         };
 
-        let token  = 'GHSAT0AAAAAABHK4A7YP5BKWLKANODFYRVIYXUXABA'
+        let token  = 'GHSAT0AAAAAABHK4A7YSMMUEBUPYRQGPEHGY2SFAMQ'
 
         this.dataUrl = `https://raw.githubusercontent.com/BeclsUser/ranking-board/main/data/ranking.json?token=${token}`
     }
