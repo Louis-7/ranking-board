@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://crispy-adventure-08dfcea9.pages.github.io",
+  "homepage": "https://louis-7.github.io/ranking-board",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.7",
