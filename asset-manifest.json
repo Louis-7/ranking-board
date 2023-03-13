@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.14cf3f47.css",
-    "main.js": "/static/js/main.b1fd7897.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.14cf3f47.css.map": "/static/css/main.14cf3f47.css.map",
-    "main.b1fd7897.js.map": "/static/js/main.b1fd7897.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/ranking-board/static/css/main.14cf3f47.css",
+    "main.js": "/ranking-board/static/js/main.035c4b55.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ranking-board/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/ranking-board/index.html",
+    "main.14cf3f47.css.map": "/ranking-board/static/css/main.14cf3f47.css.map",
+    "main.035c4b55.js.map": "/ranking-board/static/js/main.035c4b55.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ranking-board/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14cf3f47.css",
-    "static/js/main.b1fd7897.js"
+    "static/js/main.035c4b55.js"
   ]
 }
