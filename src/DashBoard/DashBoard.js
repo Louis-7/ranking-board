@@ -17,7 +17,7 @@ export class DashBoard extends React.Component {
             totalPoints: 0
         };
 
-        this.dataUrl = `https://raw.githubusercontent.com/louis-bec/ranking-board-data/main/data.json`
+        this.dataUrl = `https://raw.githubusercontent.com/Louis-7/ranking-board/main/data/ranking.json`
     }
 
     componentDidMount() {
