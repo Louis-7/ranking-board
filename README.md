@@ -1,6 +1,6 @@
 # Ranking Board
 
-A ranking board for team internal use. Anyone can publish their problems in this repository and the one who solves the problem can earn points. This site will automatically deploy to the [GitHub Pages](https://crispy-adventure-08dfcea9.pages.github.io) when there're any commit to the `main` branch.
+A ranking board for team internal use. Anyone can publish their problems in this repository and the one who solves the problem can earn points. This site will automatically deploy to the [GitHub Pages](https://louis-7.github.io/ranking-board/) when there're any commit to the `main` branch.
 
 ## Dev
 
