@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Col, Row, Statistic, Card } from 'antd';
 import { RankHeader } from '../RankHeader/RankHeader.js'
 import { RankingPlot } from '../RankingPlot/RankingPlot.js'
+import { Events } from '../Models/Events.js';
 
 import './DashBoard.less';
 
@@ -23,12 +24,13 @@ export class DashBoard extends React.Component {
     componentDidMount() {
         axios.get(this.dataUrl)
             .then((response) => {
-                let data    = response.data;
-                let ranking = data.ranking
+                let data   = response.data;
+                let events = new Events(data);
+                let ranking = events.getRecords();
 
                 let plotOptions = {
                     xAxis: {
-                        data: ranking.map((record) => record.name),
+                        data: ranking.map((record) => record.receiver),
                     },
                     yAxis: {},
                     series: [
