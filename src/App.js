@@ -8,6 +8,8 @@ const { Title } = Typography;
 
 
 function App() {
+  const today = new Date()
+  const year = today.getFullYear();
   return (
     <Layout>
       <Header>
@@ -16,7 +18,7 @@ function App() {
       <Content>
         <DashBoard/>
       </Content>
-      <Footer style={{ textAlign: 'center', }}>Cloud Team @2022</Footer>
+      <Footer style={{ textAlign: 'center', }}>Cloud Team @{year}</Footer>
     </Layout>
   );
 }
