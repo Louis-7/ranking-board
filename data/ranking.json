@@ -1,28 +1,12 @@
 {
     "ranking": [
         {
-            "name": "Louis",
-            "points": 6
-        },
-        {
-            "name": "Albert",
-            "points": 4
-        },
-        {
-            "name": "Bob",
-            "points": 1
-        },
-        {
-            "name": "Max",
-            "points": 11
-        },
-        {
-            "name": "Foo",
-            "points": 5
-        },
-        {
-            "name": "Fighter",
-            "points": 5
+        "time": "2023-03-15T08:17:53.309Z",
+        "sender": "Louis-7",
+        "receiver": "louis-bec",
+        "points": 1,
+        "comment": "",
+        "type": 0
         }
     ]
 }
