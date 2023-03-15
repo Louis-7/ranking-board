@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ranking-board/static/css/main.14cf3f47.css",
-    "main.js": "/ranking-board/static/js/main.d49bd8f6.js",
+    "main.js": "/ranking-board/static/js/main.035c4b55.js",
     "static/js/787.28cb0dcd.chunk.js": "/ranking-board/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/ranking-board/index.html",
     "main.14cf3f47.css.map": "/ranking-board/static/css/main.14cf3f47.css.map",
-    "main.d49bd8f6.js.map": "/ranking-board/static/js/main.d49bd8f6.js.map",
+    "main.035c4b55.js.map": "/ranking-board/static/js/main.035c4b55.js.map",
     "787.28cb0dcd.chunk.js.map": "/ranking-board/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14cf3f47.css",
-    "static/js/main.d49bd8f6.js"
+    "static/js/main.035c4b55.js"
   ]
 }
