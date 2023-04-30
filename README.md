@@ -2,7 +2,7 @@
 
 Ranking Board is an innovative project that utilizes free resources to build a website for recording people's effort. This repository serves as the dashboard of the Ranking Board. The back-end, which is a Github bot, is called [Ranking Board Helper](https://github.com/Louis-7/ranking-board-helper).
 
-You may be curious about where the database is located. I use a JSON file, located at `data/ranking.json`, to store all the data. I utilize JavaScript code to convert it into the necessary data model.
+You may be curious about where the database is located. I use a JSON file, located at `data/ranking.json`, to store all the data. I utilize JavaScript code to convert it into the necessary data model!
 
 ## Usage
 
