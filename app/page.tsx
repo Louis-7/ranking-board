@@ -41,7 +41,7 @@ export default function Home() {
         <Card className="w-60">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
             <p className="text-tiny uppercase font-bold">Total</p>
-            <h4 className="font-bold text-large">User</h4>
+            <h4 className="font-bold text-large">Users</h4>
           </CardHeader>
           <CardBody className="overflow-visible py-2">
             <h4 className="font-bold text-4xl">{stats.totalUsers}</h4>
@@ -63,5 +63,5 @@ export default function Home() {
         </Skeleton>
       </div>
     </div>
-  );
+  )
 }
