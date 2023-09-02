@@ -71,4 +71,50 @@ export class Events {
   private isLoaded(): boolean {
     return this.data != null;
   }
+
+  getTotalEvents(): number {
+    if (!this.isLoaded()) {
+      return 0;
+    }
+
+    return this.data.ranking.length;
+  }
+
+  getTotalUsers(): number {
+    if (!this.isLoaded()) {
+      return 0;
+    }
+
+    const ranking = this.data.ranking;
+    let userCountMap: { [key: string]: number } = {}
+
+    for (let event of ranking) {
+      if (userCountMap[event.receiver] != null) {
+        userCountMap[event.receiver]++;
+      } else {
+        userCountMap[event.receiver] = 1;
+      }
+
+      if (userCountMap[event.sender] != null) {
+        userCountMap[event.sender]++;
+      } else {
+        userCountMap[event.sender] = 1;
+      }
+    }
+
+    return Object.keys(userCountMap).length;
+
+  }
+
+  getTotalPoints(): number {
+    if (!this.isLoaded()) {
+      return 0;
+    }
+
+    const ranking = this.data.ranking;
+
+    return ranking.reduce((accumulator, currentEvent) => {
+      return accumulator + currentEvent.points
+    }, 0);
+  }
 }
