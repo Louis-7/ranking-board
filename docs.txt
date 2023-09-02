@@ -1,7 +1,7 @@
 1:HL["/ranking-board/_next/static/media/2aaf0723e720e8b9-s.p.woff2",{"as":"font","type":"font/woff2"}]
 2:HL["/ranking-board/_next/static/media/9c6817ab9c992ff9-s.p.woff2",{"as":"font","type":"font/woff2"}]
 3:HL["/ranking-board/_next/static/css/83b53b887d55d2a8.css",{"as":"style"}]
-0:["yoz54wMS6hBNFHQovtHM1",[[["",{"children":["docs",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/ranking-board/_next/static/css/83b53b887d55d2a8.css","precedence":"next"}]],"$L5"]]]]
+0:["E8PgaFrEjH02sdrvOUhu7",[[["",{"children":["docs",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],"$L4",[[["$","link","0",{"rel":"stylesheet","href":"/ranking-board/_next/static/css/83b53b887d55d2a8.css","precedence":"next"}]],"$L5"]]]]
 6:I{"id":1120,"chunks":["712:static/chunks/3627521c-7ef1fe2bde9aea24.js","539:static/chunks/539-5d7e12f9df58465b.js","66:static/chunks/66-80d145e2e91d66c9.js","185:static/chunks/app/layout-0c71301a4853bebf.js"],"name":"Providers","async":false}
 7:I{"id":2433,"chunks":["712:static/chunks/3627521c-7ef1fe2bde9aea24.js","539:static/chunks/539-5d7e12f9df58465b.js","66:static/chunks/66-80d145e2e91d66c9.js","185:static/chunks/app/layout-0c71301a4853bebf.js"],"name":"Navbar","async":false}
 8:I{"id":2433,"chunks":["712:static/chunks/3627521c-7ef1fe2bde9aea24.js","539:static/chunks/539-5d7e12f9df58465b.js","66:static/chunks/66-80d145e2e91d66c9.js","185:static/chunks/app/layout-0c71301a4853bebf.js"],"name":"NavbarContent","async":false}
