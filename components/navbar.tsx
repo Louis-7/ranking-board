@@ -4,6 +4,8 @@ import {
   NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
+  NavbarMenu,
+  NavbarMenuItem,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 
@@ -65,6 +67,22 @@ export const Navbar = () => {
         <ThemeSwitch />
         <NavbarMenuToggle />
       </NavbarContent>
+
+      <NavbarMenu>
+				<div className="mx-4 mt-2 flex flex-col gap-2">
+					{siteConfig.navMenuItems.map((item, index) => (
+						<NavbarMenuItem key={`${item}-${index}`}>
+							<Link
+								color={ "foreground" }
+								href={item.href}
+								size="lg"
+							>
+								{item.label}
+							</Link>
+						</NavbarMenuItem>
+					))}
+				</div>
+			</NavbarMenu>
     </NextUINavbar>
   );
 };

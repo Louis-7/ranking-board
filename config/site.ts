@@ -13,6 +13,16 @@ export const siteConfig = {
       href: "/ranking",
     },
 	],
+	navMenuItems: [
+		{
+			label: "Dashboard",
+			href: "/",
+		},
+    {
+      label: "Ranking",
+      href: "/ranking",
+    },
+	],
 	links: {
 		github: "https://github.com/Louis-7/ranking-board",
 		twitter: "https://twitter.com/getnextui",
